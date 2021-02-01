@@ -49,7 +49,7 @@ class Formulario extends Component{
     render() {
         return (
             //Una forma de enlazar los elementos con el metodo handler
-            //this.cotizarSeguro.bind(this)
+            //.bind(this) => this.cotizarSeguro.bind(this) 
             <form className="cotizar-auto" onSubmit={this.cotizarSeguro}>
                 <div className="campo">
                     <label>Marca</label>
